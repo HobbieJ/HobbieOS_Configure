@@ -1,0 +1,10 @@
+[user]
+	name = Jacob Hobbie
+	email = hey@jacobhobbie.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGwVgTyPzBQERI9mXPIMcY5yJJTvojk8HnuV5Dn+gfQo
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

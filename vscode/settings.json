@@ -1,0 +1,21 @@
+{
+    "editor.fontFamily": "'Monaspace Neon', Menlo, monospace",
+    "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.semanticHighlighting.enabled": true,
+    "terminal.integrated.minimumContrastRatio": 1,
+    "window.titleBarStyle": "custom",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.confirmSync": false,
+    "gopls": {
+      "ui.semanticTokens": true,
+    },
+    "files.readonlyInclude": {
+      "/.cargo/registry/src//*.rs": true,
+      "/lib/rustlib/src/rust/library//*.rs": true,
+    },
+  }
